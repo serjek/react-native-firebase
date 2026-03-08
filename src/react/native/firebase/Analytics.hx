@@ -9,7 +9,7 @@ import react_native_firebase.analytics.firebaseanalyticstypes.*;
  
 typedef SetCheckoutOptionEventParameters = Dynamic;
 
-@:jsRequire('@react-native-firebase/analytics', 'default')
+@:jsRequire('@react-native-firebase/analytics', 'getAnalytics')
 extern class Analytics {
 	@:selfCall
 	static function inst(?app:FirebaseApp):Analytics;
